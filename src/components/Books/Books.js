@@ -43,7 +43,7 @@ const Books = () => {
       // exceptions from actual bugs in components.
       (error) => {
        console.log('====================================');
-       console.log(error);
+       console.log(error + "");
        console.log('====================================');
       }
     )
